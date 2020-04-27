@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "teste"
+version = "0.1.0"
+description = ""
+authors = ["Pbezerra-dev <herbetyp@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "2.2.8"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
