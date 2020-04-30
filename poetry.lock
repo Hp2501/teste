@@ -1,16 +1,5 @@
 [[package]]
 category = "dev"
-description = "A tool that automatically formats Python code to conform to the PEP 8 style guide"
-name = "autopep8"
-optional = false
-python-versions = "*"
-version = "1.5.2"
-
-[package.dependencies]
-pycodestyle = ">=2.5.0"
-
-[[package]]
-category = "dev"
 description = "Composable command line interface toolkit"
 name = "click"
 optional = false
@@ -151,13 +140,10 @@ jinja2 = "*"
 toml = "*"
 
 [metadata]
-content-hash = "880156eee8882790c46d37f89889c747b66d36d92c8a4e4f48f7e15ea647a088"
+content-hash = "2df8131c7a6b0492654a368b0b6120e4015c45533174c5be0f5b5be96b643083"
 python-versions = "^3.8"
 
 [metadata.files]
-autopep8 = [
-    {file = "autopep8-1.5.2.tar.gz", hash = "sha256:152fd8fe47d02082be86e05001ec23d6f420086db56b17fc883f3f965fb34954"},
-]
 click = [
     {file = "click-7.1.1-py2.py3-none-any.whl", hash = "sha256:e345d143d80bf5ee7534056164e5e112ea5e22716bbb1ce727941f4c8b471b9a"},
     {file = "click-7.1.1.tar.gz", hash = "sha256:8a18b4ea89d8820c5d0c7da8a64b2c324b4dabb695804dbfea19b9be9d88c0cc"},

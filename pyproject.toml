@@ -9,17 +9,16 @@ python = "^3.8"
 django = "^2.2.8"
 
 [tool.poetry.dev-dependencies]
-autopep8 = "^1.5.2"
 flake8 = "^3.7.9"
 towncrier = "^19.2.0"
-
-[build-system]
-requires = ["poetry-core>=1.0.0a5"]
-build-backend = "poetry.core.masonry.api"
 
 [tool.towncrier]
 package = "changes"
 directory = "changes/"
 filename = "CHANGELOG.rst"
 title_format = "{version} ({project_date})"
-issue_format = "`#{issue} <https://github.com/hp2501/teste/issues/{issue}>`_" 
+issue_format = "`#{issue} <https://github.com/hp2501/teste/issues/{issue}>`_"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
