@@ -1,8 +1,8 @@
 autopep8==1.5.2 \
     --hash=sha256:152fd8fe47d02082be86e05001ec23d6f420086db56b17fc883f3f965fb34954
-django==3.0.5 \
-    --hash=sha256:642d8eceab321ca743ae71e0f985ff8fdca59f07aab3a9fb362c617d23e33a76 \
-    --hash=sha256:d4666c2edefa38c5ede0ec1655424c56dc47ceb04b6d8d62a7eac09db89545c1
+django==3.0.9 \
+    --hash=sha256:96fbe04e8ba0df289171e7f6970e0ff8b472bf4f909ed9e0e5beccbac7e1dbbe \
+    --hash=sha256:c22b4cd8e388f8219dc121f091e53a8701f9f5bca9aa132b5254263cab516215
 pycodestyle==2.5.0 \
     --hash=sha256:95a2219d12372f05704562a14ec30bc76b05a5b297b21a5dfe3f6fac3491ae56 \
     --hash=sha256:e40a936c9a450ad81df37f549d676d127b1b66000a6c500caa2b085bc0ca976c
